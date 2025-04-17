@@ -9,7 +9,73 @@
     </head>
 
     <body>
-        
+        <!-- 【(div).或# + 类名】可以快速创建 -->
+        <div class="navigation">
+            <a href="1-常用基本标签.html" target="_blank">常用基本标签</a> &gt;
+            <!-- 标识一下当前所在的链接 -->
+            <a href="2-块元素与行内元素.html" target="_blank" style="color: red;">块元素与行内元素</a> &gt;
+            <a href="3-HTML表单.html" target="_blank">HTML表单</a> &gt;
+
+            <h2>块元素与行内元素</h2>
+            <p>块元素：独占一行，宽度默认填满父元素的宽度。<br> 
+                行内元素：不独占一行，宽度只占内容的宽度。
+            </p>
+            <p>块元素和行内元素的主要区别：</p> 
+            <ul>    
+                <li> 块元素独占一行，行内元素不独占一行。 </li>
+                <li> 块元素宽度默认填满父元素的宽度，行内元素宽度只占内容的宽度。 </li>
+                <li> 块元素可以设置宽高，行内元素不可以设置宽高。 </li>
+                <li> 块元素可以设置margin和padding，行内元素只能设置padding。 </li>
+                <li> 块元素可以包含行内元素和块元素，行内元素只能包含行内元素。 </li>
+            </ul>
+        </div>
+
+        <p>典型的块标签(部分): </p> 
+        <ul>
+            <li> <div>div: 如上导航栏</div> </li>
+            <li> <p>p: 段落内容</p> </li>
+            <li> <h1>h1</h1> </li>
+            <li> <h2>h2</h2> </li>
+            <li> <h3>h3</h3> </li>
+            <li> <h4>h4</h4> </li>
+            <li> <h5>h5</h5> </li>
+            <li> <h6>h6</h6> </li>
+            <li> hr <hr /> </li>
+            <!-- table和form是吗 -->
+            <li> <table>table</table> </li>
+            <li> <form>form</form> </li>
+            <li> ul: 无序列表 </li>
+            <li> ol: 有序列表 </li>
+            <li> li: 列表条目 </li>
+        </ul>
+
+        <p>典型的行内标签(部分): </p> 
+        <ul>
+            <li> <span>span: 包装部分文本，以便于后续处理</span> </li>
+            <li> <strong>strong</strong> </li>
+            <li> <em>em</em> </li>
+            <li> <i>i</i> </li>
+            <li> <b>b</b> </li>
+            <li> <u>u</u> </li>
+            <li> <q>q</q> </li>
+            <li> br <br> </li>
+            <li> <img src="error.png" alt="图片"> </li>
+            <li> <input type="text" value="input">  </li>
+            <li> select
+                <select> 
+                    <option value="1">选项1</option>
+                    <option value="2">选项2</option>
+                    <option value="3">选项3</option>
+                </select>
+            </li>
+            <li> <textarea>textarea</textarea>  </li>
+            <li> <label>label</label> </li>
+            <li> <button>button</button> </li>
+            <li> <a href="#">a</a> </li>
+            <li> <code>code</code> </li>
+        </ul>
+            
+
     </body>
 
 </html>
